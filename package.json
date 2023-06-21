@@ -11,7 +11,7 @@
     "lint": "expo-module lint",
     "test": "expo-module test",
     "husky-install": "husky install && rm -rf .git/hooks || true && ln -s ../.husky .git/hooks || true",
-    "prepare": "pnpm husky-install && expo-module prepare",
+    "prepare": "expo-module prepare",
     "prepublishOnly": "expo-module prepublishOnly",
     "expo-module": "expo-module",
     "open:ios": "open -a \"Xcode\" example/ios",
